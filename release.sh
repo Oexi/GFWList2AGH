@@ -137,7 +137,7 @@ function GenerateRules() {
     case ${software_name} in
         adguardhome)
             domestic_dns=(
-                # "https://dns.alidns.com:443/dns-query"
+                "https://dns.alidns.com:443/dns-query"
                 # "https://dns.ipv6dns.com:443/dns-query"
                 # "https://doh.360.cn:443/dns-query"
                 # "https://doh.pub:443/dns-query"
@@ -145,8 +145,6 @@ function GenerateRules() {
                 # "tls://dns.ipv6dns.com:853"
                 # "tls://dot.360.cn:853"
                 # "tls://dot.pub:853"
-                "114.114.114.114"
-                #"114.114.115.115"
             )
             foreign_dns=(
                 # "https://dns.google:443/dns-query"
@@ -229,8 +227,8 @@ function GenerateRules() {
                 "202.102.154.3"
             )
             foreign_dns=(
-                "https://dns.google/dns-query"
-                "https://doh.sandbox.opendns.com/dns-query"
+                #"https://dns.google/dns-query"
+                #"https://doh.sandbox.opendns.com/dns-query"
                 # "https://dns.opendns.com:443/dns-query"
                 # "https://dns11.quad9.net:443/dns-query"
                 # "https://dns64.dns.google:443/dns-query"
@@ -238,7 +236,7 @@ function GenerateRules() {
                 # "tls://dns.opendns.com:853"
                 # "tls://dns11.quad9.net:853"
                 # "tls://dns64.dns.google:853"
-                # "quic://unfiltered.adguard-dns.com"
+                "quic://unfiltered.adguard-dns.com"
             )
             function GenerateRulesHeader() {
                 echo -n "[/" >> "${file_path}"
