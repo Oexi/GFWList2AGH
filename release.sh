@@ -239,7 +239,7 @@ function GenerateRules() {
                 # "quic://unfiltered.adguard-dns.com"
                 "udp://dns.google"
                 "udp://sandbox.opendns.com"
-                "udp://one.one.one.one"
+                #"udp://one.one.one.one"
             )
             function GenerateRulesHeader() {
                 echo -n "[/" >> "${file_path}"
