@@ -223,8 +223,10 @@ function GenerateRules() {
                 # "tls://dns.ipv6dns.com:853"
                 # "tls://dot.360.cn:853"
                 # "tls://dot.pub:853"
-                "114.114.114.114"
-                "114.114.115.115"
+                # "114.114.114.114"
+                # "114.114.115.115"
+                "202.102.152.3"
+                "202.102.154.3"
             )
             foreign_dns=(
                 "https://dns.google/dns-query"
