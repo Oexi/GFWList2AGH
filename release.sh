@@ -236,7 +236,10 @@ function GenerateRules() {
                 # "tls://dns.opendns.com:853"
                 # "tls://dns11.quad9.net:853"
                 # "tls://dns64.dns.google:853"
-                "quic://unfiltered.adguard-dns.com"
+                # "quic://unfiltered.adguard-dns.com"
+                "dns.google"
+                "sandbox.opendns.com"
+                "one.one.one.one"
             )
             function GenerateRulesHeader() {
                 echo -n "[/" >> "${file_path}"
