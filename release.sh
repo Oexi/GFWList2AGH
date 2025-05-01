@@ -230,6 +230,7 @@ function GenerateRules() {
             )
             foreign_dns=(
                 "https://dns.google/dns-query"
+                "https://doh.sandbox.opendns.com/dns-query"
                 # "https://dns.opendns.com:443/dns-query"
                 # "https://dns11.quad9.net:443/dns-query"
                 # "https://dns64.dns.google:443/dns-query"
@@ -237,7 +238,7 @@ function GenerateRules() {
                 # "tls://dns.opendns.com:853"
                 # "tls://dns11.quad9.net:853"
                 # "tls://dns64.dns.google:853"
-                "quic://unfiltered.adguard-dns.com"
+                # "quic://unfiltered.adguard-dns.com"
             )
             function GenerateRulesHeader() {
                 echo -n "[/" >> "${file_path}"
