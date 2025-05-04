@@ -224,7 +224,7 @@ function GenerateRules() {
                 # "114.114.114.114"
                 # "114.114.115.115"
                 "202.102.152.3"
-                "202.102.154.3"
+                "202.102.128.68"
             )
             foreign_dns=(
                 #"https://dns.google/dns-query"
