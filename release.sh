@@ -224,7 +224,7 @@ function GenerateRules() {
                 # "114.114.114.114"
                 # "114.114.115.115"
                 "202.102.152.3"
-                "202.102.128.68"
+                # "202.102.128.68"
             )
             foreign_dns=(
                 #"https://dns.google/dns-query"
@@ -237,9 +237,9 @@ function GenerateRules() {
                 # "tls://dns11.quad9.net:853"
                 # "tls://dns64.dns.google:853"
                 # "quic://unfiltered.adguard-dns.com"
-                "udp://dns.google"
+                # "udp://dns.google"
                 "udp://sandbox.opendns.com"
-                #"udp://one.one.one.one"
+                # "udp://one.one.one.one"
             )
             function GenerateRulesHeader() {
                 echo -n "[/" >> "${file_path}"
