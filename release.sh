@@ -22,7 +22,7 @@ function GetData() {
     gfwlist_base64=(
         "https://raw.githubusercontent.com/Loukky/gfwlist-by-loukky/master/gfwlist.txt"
         "https://raw.githubusercontent.com/gfwlist/gfwlist/master/gfwlist.txt"
-        "https://raw.githubusercontent.com/poctopus/gfwlist-plus/master/gfwlist-plus.txt"
+        #"https://raw.githubusercontent.com/poctopus/gfwlist-plus/master/gfwlist-plus.txt"
     )
     gfwlist_domain=(
         "https://raw.githubusercontent.com/Loyalsoldier/v2ray-rules-dat/release/gfw.txt"
