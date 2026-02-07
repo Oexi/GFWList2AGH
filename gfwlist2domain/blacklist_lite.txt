@@ -1665,7 +1665,6 @@ anxiangxing.com
 anybunny.org
 anybunny.tv
 anydesk.com
-anygate.vip
 anyhentai.com
 anyporn.com
 anypornhd.com
@@ -3441,6 +3440,7 @@ bitsquare.io
 bitstamp.net
 bitstream.com
 bitterwinter.org
+bittorrent.com
 bittrex.com
 bitvise.com
 bitwarden.com
@@ -10439,6 +10439,7 @@ helpshift.com
 helpster.de
 helpuyghursnow.org
 helpzhuling.org
+hembed.com
 henduohao.com
 henry.wang
 hentai-ani.me
@@ -14001,6 +14002,8 @@ manta.com
 mantan-web.jp
 mantochichi.com
 manurefetish.com
+manus.im
+manuscdn.com
 manytoon.com
 manyvids.com
 manyvoices.news
@@ -19887,6 +19890,7 @@ sketchbookmobile.com
 sketchbooknews.com
 sketchbookpro.com
 sketchfab.com
+skills.sh
 skillshare.com
 skimtube.com
 skinstrip.net
