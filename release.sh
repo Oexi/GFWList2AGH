@@ -208,16 +208,16 @@ function GenerateRules() {
         ;;
         adguardhome_new)
             domestic_dns=(
-                # "https://dns.alidns.com:443/dns-query"
+                "https://dns.alidns.com:443/dns-query"
                 # "https://dns.ipv6dns.com:443/dns-query"
                 # "https://doh.360.cn:443/dns-query"
-                # "https://doh.pub:443/dns-query"
+                "https://doh.pub:443/dns-query"
                 # "tls://dns.alidns.com:853"
                 # "tls://dns.ipv6dns.com:853"
                 # "tls://dot.360.cn:853"
                 # "tls://dot.pub:853"
-                114.114.114.114
-                114.114.115.115
+                # 114.114.114.114
+                # 114.114.115.115
             )
             foreign_dns=(
                 "https://dns.google:443/dns-query"
