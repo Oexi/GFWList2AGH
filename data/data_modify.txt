@@ -201,6 +201,7 @@
 # 治杰 Online
 (@&!)zhijie.online
 
+# 排除问题域名
 (!!!)xn--wcvs22d1m.hk
 
 ## 自定义规则 - 结束
